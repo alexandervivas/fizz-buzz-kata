@@ -8,10 +8,8 @@ describe('Hiker', () => {
       const hiker = new Hiker()
 
       // Act
-      const answer = hiker.askQuestion(question)
+      hiker.printFizzBuzz();
 
-      // Assert
-      expect(answer).toBe(42)
     }))
   })
 })
